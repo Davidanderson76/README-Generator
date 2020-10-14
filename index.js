@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const inquirer = require("inquirer");
+//here is where all the saved data gets placed into the readme md file
 const generateMarkDown = require("./utils/generateMarkdown");
 
 // array of questions for user
@@ -64,7 +65,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then((inquirerResponses) => {
-        console.log("Generating a perfect READEME for you...");
+        console.log("Generating a perfect READEME just for you...");
         writeToFile("README.md", generateMarkDown({...inquirerResponses}));
     })
 
