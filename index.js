@@ -46,7 +46,7 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "What does the user need to know about this repo?"
+        message: "What does the user need to know about this repo?",
     },
     {
         input: "input",
@@ -57,10 +57,16 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
 // function to initialize program
 function init() {
+    inquirer.prompt(questions)
+    .then((inquirerResponses) => {
+        console.log("Generating a perfect READEME for you...");
+        writeToFile("README.md", generateMarkDown({...inquirerResponses}));
+    })
 
 }
 
