@@ -1,38 +1,11 @@
-# readme generator
-  
+I have created a README generator that takes in all the users info through the command line and creates a new markdown file with all of the users input.
 
-  ## Description
-  a simple readme generator run through the command line using node
+This application is all run through the command line using node, so there is no deployment.
 
-  ## TABLE OF CONTENTS
-  * [Installation] (#installation)
-  * [Usage] (#usage)
-  
-  * [Contributing] (#contributing)
-  * [Tests] (#tests)
-  * [Questions] (#questions)
-  
-  ## INSTALLATION
+The user will be able to enter all of their info and generate a clear read me for any project. This will enable the user to focus on the actual project and feel confident that the read me is informative and professional looking.
 
-  To install all the necessary dependencies, run the following command:
-  npm i
+Here's to creating a standard read me with minimum effort!
 
-  ### USAGE
+Check out the read me generator in action!
 
-  there is no deployment, all run through the command line.
-  
-
-  ### CONTRIBUTING
-  go crazy
-
-  ### TESTS
-
-  To run tests, run the following command:
-  npm test
-
-  ### QUESTIONS
-
-  If you have any questions about this repo, contact me directly at david.anderson1993@gmail.com!
-
-  More of my work is available at [Davidanderson76](https://github.com/Davidanderson76/)!
-
+[README GENERATOR](https://drive.google.com/file/d/1UyQczvobegbu1TvwTveFDikWrecgdPYo/view?usp=sharing)
