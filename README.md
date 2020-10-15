@@ -6,6 +6,14 @@ The user will be able to enter all of their info and generate a clear read me fo
 
 Here's to creating a standard read me with minimum effort!
 
+Start the application in the terminal!
+
+ ![Screenshot of application](assets/far.png "Running the application in the terminal")
+
+- Once you are in the correct directory, rune "node index" in the terminal line to begin the node questionnaire! 
+
+![Second screenshot of application](assets/closer.png "Running the application in the terminal")
+
 Check out the read me generator in action!
 
-[README GENERATOR](https://drive.google.com/file/d/1UyQczvobegbu1TvwTveFDikWrecgdPYo/view?usp=sharing)
+[README GENERATOR VIDEO](https://drive.google.com/file/d/1UyQczvobegbu1TvwTveFDikWrecgdPYo/view?usp=sharing)
