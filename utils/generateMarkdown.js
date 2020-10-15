@@ -28,6 +28,9 @@ function renderLicenseSection(license) {
 }
 
 // function to generate markdown for README
+// all within the back tick so the white space will show up
+// adding extra spacing for aesthetic within the readme, easier to read
+
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
@@ -48,20 +51,20 @@ function generateMarkdown(data) {
   To install all the necessary dependencies, run the following command:
   ${data.installation}
 
-  ## USAGE
+  ### USAGE
 
   ${data.usage}
   ${renderLicenseSection(data.license)}
 
-  ## CONTRIBUTING
+  ### CONTRIBUTING
   ${data.contributing}
 
-  ## TESTS
+  ### TESTS
 
   To run tests, run the following command:
   ${data.test}
 
-  ## QUESTIONS
+  ### QUESTIONS
 
   If you have any questions about this repo, contact me directly at ${data.email}!
 
